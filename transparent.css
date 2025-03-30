@@ -1,0 +1,37 @@
+/* 컨트롤러 전체 스타일 */
+.custom {
+  background: transparent; /* 투명 배경 설정 */
+  height: 558px; /* 컨트롤러 이미지 크기 */
+  width: 784px;
+}
+
+/* 연결이 끊긴 경우의 스타일 */
+.custom.disconnected {
+  background: transparent; /* 연결 해제 시에도 투명 유지 */
+}
+
+.custom.disconnected div {
+  display: none; /* 버튼 숨기기 */
+}
+
+/* 버튼 스타일 */
+.custom .button {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  background: rgba(255, 255, 255, 0.5); /* 반투명 버튼 */
+}
+
+.custom .button.pressed {
+  background: rgba(255, 255, 255, 0.8); /* 버튼 누를 때 불투명도 증가 */
+}
+
+/* 특정 버튼 위치 (예시) */
+.custom .a {
+  top: 142px;
+  left: 71px;
+}
+
+.custom .b {
+  top: 71px;
+}
